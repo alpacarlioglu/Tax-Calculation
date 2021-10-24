@@ -7,8 +7,8 @@
 #define OVERTIME 40
 
 int main(void)
-{
-
+{   
+    // Declare variables
     int hours = 0;
     double grossPay = 0.0;
     double taxes = 0.0;
@@ -49,7 +49,7 @@ int main(void)
     // Calculate the netpay
     netPay = grossPay - taxes;
 
-    // display output
+    // Display output
     printf("Your gross pay this week is: %.2f\n", grossPay);
     printf("Your taxes  this week is: %.2f\n", taxes);
     printf("Your net pay this week is: %.2f\n", netPay);
